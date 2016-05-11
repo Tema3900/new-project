@@ -191,9 +191,85 @@ html {
 }
 .col-right .post-col .post-list .post-list-title {
     letter-spacing: 1.8px;
+    font-weight: 500;
     color: #222;
 }
+.title {
+    text-decoration: none;
+    color: #222;
+}
+.title:hover {
+    color: red;
+}
 
+.foter-left-block {
+    width: 50%;
+    float: left;
+}
+.footer-right-block {
+    width: 50%;
+    float: right;
+ }
+.footer-list {
+    list-style: none;
+    color: #666;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.footer-list-phone {
+    margin-bottom: 10px;
+}
+.footer-list-phone > a {
+    text-decoration: none;
+    color: #666;
+}
+.footer-list-phone > a:hover {
+    text-decoration: underline;
+    color: #666;
+    text-decoration-color: #ff4a21;
+}
+.icon-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 0 0;
+    float: right;
+}
+.icon-list > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.vimeo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/vimeo.png);
+}
+.flickr {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/flirc.png);
+}
+.you-tube {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/you-tube.png);
+}
+.twitter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/twiter.png);
+}
+.cloud {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/cloud.png);
+}
 @media all and (max-width: 1024px) {
 
 
