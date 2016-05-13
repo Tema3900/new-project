@@ -1,0 +1,373 @@
+body,
+html {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    font-size: 15px;
+    font-family: Open Sans;
+    background-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    padding: 0 15px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    background-color: #fff;
+    transform: translateX(-50%);
+}
+.logo {
+    margin-bottom: 30px;
+}
+.mobile-menu {
+    display: none;
+}
+.header ul.header-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header .header-list .header-list-item {
+    margin-bottom: 18px;
+
+}
+.header .header-list .header-list-item > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: 3px;
+    font-size: 1rem;
+
+}
+.nav:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px 8px;
+
+}
+.header .header-list .header-list-item:first-child {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding: 3px 8px;
+}
+
+.row {
+    margin-top: 110px;
+}
+.col-left {
+
+    width: 40%;
+    float: left;
+    position: relative;
+    padding: 0 15px;
+}
+.col-right {
+
+    width: 40%;
+    float: right;
+    position: relative;
+    padding: 0 15px;
+}
+.col-left .pictures-images {
+    float: right;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.im {
+    float: left;
+    position: relative;
+    margin-bottom: 6px;
+    width: 49%;
+}
+.im-odd {
+    margin-right: 1%;
+}
+.image {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.image-hover-title {
+    padding-top: 41%;
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80%;
+    opacity: 0;
+}
+.im:hover .image-hover,.image-hover:hover{
+    visibility:visible;
+    opacity:0.95;
+}
+.im:hover .image-hover > h3{
+    letter-spacing:0.9px;
+    opacity:1;
+}
+
+.col-right .post-col {
+    float: left;
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.col-right .post-col .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+.col-right .post-col .post-list > li {
+    width: 100%;
+    border-bottom: 1px dotted;
+    margin-bottom: 40px;
+}
+.col-right .post-col .post-list .image {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.col-right .post-col .post-list .post-list-description {
+    letter-spacing: 0.7px;
+    line-height: 1.75em;
+    font-size: 14px;
+}
+.col-right .post-col .post-list .post-list-footer {
+    color: #666;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.col-right .post-col .post-list .post-list-footer > a {
+    text-decoration: none;
+}
+.col-right .post-col .post-list .post-list-footer > a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.col-right .post-col .post-list .post-list-title {
+    letter-spacing: 1.8px;
+    font-weight: 500;
+    color: #222;
+}
+.title {
+    text-decoration: none;
+    color: #222;
+}
+.title:hover {
+    color: red;
+}
+
+.foter-left-block {
+    width: 50%;
+    float: left;
+}
+.footer-right-block {
+    width: 50%;
+    float: right;
+ }
+.footer-list {
+    list-style: none;
+    color: #666;
+    margin: 0;
+    padding: 0 0 0 70px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+.footer-list-phone {
+    margin-bottom: 10px;
+}
+.footer-list-phone > a {
+    text-decoration: none;
+    color: #666;
+}
+.footer-list-phone > a:hover {
+    text-decoration: underline;
+    color: #666;
+    text-decoration-color: #ff4a21;
+}
+.icon-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 40px 0 0;
+    float: right;
+}
+.icon-list > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.vimeo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/vimeo.png);
+}
+.flickr {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/flirc.png);
+}
+.you-tube {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/you-tube.png);
+}
+.twitter {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/twiter.png);
+}
+.cloud {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/cloud.png);
+}
+
+
+@media all and (max-width: 1024px) {
+    .header {
+        padding: 40px 0;
+        text-align: center;
+        position: static;
+        width: 100%;
+        float: none;
+        transform: none;
+    }
+    .header ul.header-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .header ul.header-list > li {
+        display: inline-block;
+    }
+    .header .header-list .header-list-item {
+        padding: 15px;
+        margin: 0;
+
+    }
+    .header .header-list .header-list-item > a {
+        color: #888;
+        font-size: 0.9rem;
+    }
+    .header .header-list .header-list-item:first-child {
+        border: none;
+        color: black;
+    }
+    .row {
+        margin: 0;
+    }
+    .col-left {
+        display: none;
+    }
+    .col-right {
+        width: 100%;
+        float: none;
+    }
+    .col-right .post-col {
+        width: 100%;
+    }
+    .col-right .post-col .image {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .footer-right-block {
+        display: none;
+    }
+    .footer-list {
+        padding: 0 0 0 15px;
+    }
+
+}
+
+
+
+@media all and (max-width: 780px) {
+    .header {
+        padding: 40px 0;
+        text-align: center;
+        position: static;
+        width: 100%;
+        float: none;
+        transform: none;
+    }
+    .logo {
+        margin: 0;
+    }
+    .header-list {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        width: 36px;
+        height: 36px;
+        border: 1px solid #888;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: url("../img/h-lines.png") no-repeat center;
+        cursor: pointer;
+    }
+    .header ul.header-list {
+        display: none;
+    }
+
+
+
+
+}
