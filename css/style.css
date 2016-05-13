@@ -49,7 +49,7 @@ html {
     margin: 0;
 }
 .header .header-list .header-list-item {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
 
 }
 .header .header-list .header-list-item > a {
@@ -63,11 +63,14 @@ html {
 .nav:hover {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    padding: 3px 8px;
+
 }
 .header .header-list .header-list-item:first-child {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     display: inline-block;
+    padding: 3px 8px;
 }
 
 .row {
@@ -89,7 +92,7 @@ html {
 }
 .col-left .pictures-images {
     float: right;
-    width: 80%;
+    width: 95%;
     margin: 0;
     padding: 0;
     position: relative;
@@ -146,7 +149,7 @@ html {
 
 .col-right .post-col {
     float: left;
-    width: 80%;
+    width: 95%;
     margin: 0;
     padding: 0;
     position: relative;
@@ -214,7 +217,7 @@ html {
     list-style: none;
     color: #666;
     margin: 0;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 70px;
     font-size: 14px;
     letter-spacing: 1.5px;
 }
@@ -233,7 +236,7 @@ html {
 .icon-list {
     list-style: none;
     margin: 0;
-    padding: 0 20px 0 0;
+    padding: 0 40px 0 0;
     float: right;
 }
 .icon-list > li {
@@ -270,13 +273,9 @@ html {
     height: 24px;
     background-image: url(../img/cloud.png);
 }
+
+
 @media all and (max-width: 1024px) {
-
-
-
-}
-
-@media all and (max-width: 900px) {
     .header {
         padding: 40px 0;
         text-align: center;
@@ -325,11 +324,18 @@ html {
         height: auto;
         vertical-align: middle;
     }
+    .footer-right-block {
+        display: none;
+    }
+    .footer-list {
+        padding: 0 0 0 15px;
+    }
+
 }
 
 
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 780px) {
     .header {
         padding: 40px 0;
         text-align: center;
@@ -359,6 +365,7 @@ html {
     .header ul.header-list {
         display: none;
     }
+
 
 
 
