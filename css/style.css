@@ -212,12 +212,12 @@ html {
 .footer-right-block {
     width: 50%;
     float: right;
- }
+}
 .footer-list {
     list-style: none;
     color: #666;
     margin: 0;
-    padding: 0 0 0 70px;
+    padding: 0 0 0 40px;
     font-size: 14px;
     letter-spacing: 1.5px;
 }
@@ -296,16 +296,24 @@ html {
     .header .header-list .header-list-item {
         padding: 15px;
         margin: 0;
-
     }
     .header .header-list .header-list-item > a {
         color: #888;
         font-size: 0.9rem;
     }
+
+    .header .header-list .header-list-item > a:hover {
+        border-top: none;
+        border-bottom: none;
+        padding: 0;
+        color: red;
+    }
     .header .header-list .header-list-item:first-child {
         border: none;
-        color: black;
+        padding: 15px;
+
     }
+
     .row {
         margin: 0;
     }
